@@ -1,0 +1,184 @@
+{% load static %}
+
+
+
+<html>
+<head>
+  <title>RFAPL website</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="{% static 'CSS/bootstrap.min.css' %}"type="text/css">
+<link rel="stylesheet" href="{% static 'CSS/font-awesome.min.css' %}"type="text/css">
+<link rel="stylesheet" href="{% static 'CSS/bootstrap.css' %}"type="text/css">
+  <link rel="stylesheet" href="{% static 'CSS/font.css' %}"type="text/css">
+  <link rel="stylesheet" href="{% static 'CSS/file.css' %}" type="text/css">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+ </head>
+<body>
+  
+<div class="mg">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">RFAPL</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home"><i class="fa fa-fw fa-home"></i> Home</a></li>
+        <li><a href="{% url 'about_page' %}"><i class="fa fa-users"></i> About Us</a></li>
+        <li><a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact Info</a></li>
+        <li><a href="#career"><i class="fa fa-graduation-cap"></i> Career</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron bg">
+<div class="container">
+<div class="row">
+  <div class="col-md-8 col-xs-7">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  </div>
+<div class="col-md-4 col-xs-5">
+  {% load static %}
+<img src="{% static 'img/fireworks4.jpg' %}" class="img-responsive img-thumbnail"style="width:400px;height:300px;">
+</div>
+</div></div></div>
+
+
+ <div class="panel panel-default">
+   <div class="panel-body" style="text-align:center;font-size:20px;">Transforming Real Estate</div>
+ </div>
+</div>
+
+
+ <div class="container-fluid">
+   <div class="row">
+ <div class="col-md-3 col-sm-6 col-xs-6">
+     <div class="flip-card mmm">
+       <div class="flip-card-inner">
+         <div class="flip-card-front">
+           {% load static %}
+<img src="{% static 'img/fireworks2.jpg' %}" style="width:300px;height:200px;">
+         </div>
+         <div class="flip-card-back"style="width:300px;height:200px;">
+           <h1 >John Doe</h1>
+           <p >Wikipedia is a multilingual online encyclopedia. It is the largest ....</p>
+           <a href="#"><b>Continue Reading</b></a>
+         </div>
+       </div>
+     </div>
+ </div>
+
+ <div class="col-md-3 col-sm-6 col-xs-6">
+     <div class="flip-card mmm">
+       <div class="flip-card-inner">
+         <div class="flip-card-front">
+           {% load static %}
+<img src="{% static 'img/fireworks2.jpg' %}" style="width:300px;height:200px;">
+         </div>
+         <div class="flip-card-back"style="width:300px;height:200px;">
+           <h1 >John Doe</h1>
+           <p >Wikipedia is a multilingual online encyclopedia. It is the largest ....</p>
+           <a href="#"><b>Continue Reading</b></a>
+         </div>
+       </div>
+     </div>
+ </div>
+
+ <div class="col-md-3 col-sm-6 col-xs-6">
+     <div class="flip-card mmm">
+       <div class="flip-card-inner">
+         <div class="flip-card-front">
+          {% load static %}
+ <img src="{% static 'img/fireworks2.jpg' %}" style="width:300px;height:200px;">
+         </div>
+         <div class="flip-card-back"style="width:300px;height:200px;">
+           <h1 >John Doe</h1>
+           <p >Wikipedia is a multilingual online encyclopedia. It is the largest ....</p>
+           <a href="#"><b>Continue Reading</b></a>
+         </div>
+       </div>
+     </div>
+ </div>
+
+ <div class="col-md-3 col-sm-6 col-xs-6">
+     <div class="flip-card mmm">
+       <div class="flip-card-inner">
+         <div class="flip-card-front">
+           {% load static %}
+<img src="{% static 'img/fireworks2.jpg' %}" alt="Avatar" style="width:300px;height:200px;">
+         </div>
+         <div class="flip-card-back"style="width:300px;height:200px;">
+           <h1 >John Doe</h1>
+           <p >Wikipedia is a multilingual online encyclopedia. It is the largest ....</p>
+           <a href="#"><b>Continue Reading</b></a>
+         </div>
+       </div>
+     </div>
+ </div>
+ </div>
+ </div>
+<br>
+<br>
+<div class="cg">
+  <footer>
+
+  <div class="container-fluid">
+  <div class="row">
+  <div class="col-xs-4 col-md-4 col-sm-4">
+  	  	<div class="footer-header">
+  {% load static %}
+<img src="{% static 'img/fireworks4.jpg' %}" class="img-responsive img-thumbnail"style="width:300px;height:200px;margin-top:9px;margin-bottom:9px;">
+                                    </div>
+  	  			</div>
+  <div class="col-xs-4 col-md-2 col-sm-4">
+  	  			<div class="footer-header">
+  	             <h4 style="color:white">About Us</h4>
+  	  					<ul class="footer-link">
+  							<li><a href="#"style="color:white">About Us</a></li>
+  							<li><a href="#"style="color:white">Help Center</a></li>
+  							<li><a href="#"style="color:white">Our Team</a></li>
+  							<li><a href="#"style="color:white">Privacy Policy</a></li>
+  						</ul>
+            </div></div>
+  <div class="col-xs-4 col-md-6 col-sm-4">
+  	  				<div class="footer-header" id="contact">
+  	  					<h4 style="color:white">Contact</h4>
+  	  					<ul class="footer-link">
+  							<li><p style="color:white">clock  Monday - Friday: 9:00 - 19:00</p></li>
+  							<li><p style="color:white">envelope-open:<a href="mailto:info@la-emailname.com"style="color:white"> info@la-emailname.com</a></p></li>
+  							<li><p style="color:white">phone<a href="tel:(+612) 2531 5600"style="color:white">    (+612) 2531 5600</a></p></li>
+  							<p style="color:white">map-marker-alt  PO Box 1622 Colins </p>
+  						</ul>
+  	  				</div>
+  	  			</div>
+  	  		</div>
+  	  	</div>
+
+</footer>
+</div>
+
+
+<button class="btn btn-danger scroll-top" data-scroll="up" type="button">
+<i class="fa fa-chevron-up"></i><br>TOP
+</button>
+
+
+
+</body>
+</html>
